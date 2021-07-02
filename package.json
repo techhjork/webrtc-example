@@ -23,6 +23,7 @@
     "express-validator": "^6.10.0",
     "gravatar": "^1.8.1",
     "handlebars": "^4.7.7",
+    "ion-sfu-nodejs": "0.0.9",
     "jsonwebtoken": "^8.5.1",
     "method-override": "^3.0.0",
     "moment": "^2.29.1",
@@ -38,6 +39,7 @@
     "request": "^2.88.2",
     "socket.io": "^3.1.2",
     "uuid": "^8.3.2",
+    "wrtc": "^0.4.7",
     "ws": "^7.5.0"
   },
   "devDependencies": {

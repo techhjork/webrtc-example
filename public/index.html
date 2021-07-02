@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
 <head>
 	<title></title>
@@ -30,7 +30,8 @@
             <input  type="text" class="form-control" id="room-name" placeholder="room name">
       </div>
         <button class="btn btn-primary btn-lg btn-block mt-5" id="call">Call</button>
-      
+        <button class="btn btn-danger btn-lg btn-block mt-5" id="leave">leave The Call</button>
+        
       <div class="container d-flex flex-md-row  flex-column justify-content-evenly align-items-center">
 
         <div class="m-5">
@@ -47,7 +48,7 @@
         </div>
   		  <div class="m-5">
         <h1>Callee</h1>
-          <video  muted autoplay="" class="video"></video>
+          <video  muted autoplay="" class="video" id="peer-video">></video>
            <div class="mt-3">
             <label class="form-label ">Caller Name</label>
             <input  type="text" class="form-control" id="callerId" placeholder="callee Id" readonly="">
@@ -58,9 +59,9 @@
           </div>
         </div>
       </div>
-        <button class="btn btn-danger btn-lg btn-block mt-5" id="leave">leave The Call</button>
   	</div>
   </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/adapterjs/0.15.5/adapter.min.js" integrity="sha512-8HaugtT+4c0rhgZIggNCv7I2N0u5OuCXQutD91XdRLqtBl4kD5z2B6QmHczDFMpeENZV060Fip3S954njcfv9A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.1.2/socket.io.js" integrity="sha512-iZIBSs+gDyTH0ZhUem9eQ1t4DcEn2B9lHxfRMeGQhyNdSUz+rb+5A3ummX6DQTOIs1XK0gOteOg/LPtSo9VJ+w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script type="text/javascript" src="./assets/index.js"></script>
 </body>
